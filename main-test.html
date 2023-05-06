@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>My Site</title>
+    <style>
+    #main {
+        width: 80%;
+        height: 80%;
+    }
+    body {
+        width: fit-content;
+    }
+    #main div {
+        width: 114px;
+        height: 60%;
+        border: 1px solid #ccc;
+        float: left;
+        margin: 15px;
+        background-color: #ffffff;
+        border-radius: 20%;
+    }
+    @media (max-width:768px){
+        .resume{
+            width: 200px;
+        }
+        .horizon{
+            width:45%;
+        }
+    }
+    </style>
+</head>
+<body>
+<header>
+    <div class="container">
+        <div class="row">
+            <span class="col top-head text-uppercase">Kiran.</span>
+            <div>
+                <div class="sidebar">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+                <ul class="nav-list navbar-nav">
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="#services" class="nav-link">Services</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="#projects" class="nav-link">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!--intro start-->
+<section class="m-5">
+    <div class="container">
+        <div class="row text-centre justify-content-center font">
+            <div class="col mt-5 user-select-none">
+                Hello,I'm<br>
+                <span class="text-uppercase">kiran kidecha</span></br>
+                <span class="text-uppercase text-danger">Back-end Developer</span>
+                <div class="row">
+                    <div class="resume col-lg-5">Download resume</div>
+                    <span class="horizon col-lg-4"></span>
+                </div>
+            </div>
+            <div class="col d-flex justify-content-center align-items-center">
+                <img src="coder.png" class="coder col-xl-10" alt="coder">
+            </div>
+        </div>
+    </div>
+</section>
+<!--intro end-->
+
+
+<!--my skills start-->
+<section class="m-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <img class="rounded-lg" src="thumbnail.png" width="100%" height="100%"/>
+            </div>
+            <div class="col-lg-6">
+                <div>
+                    <h2>My Best Skills</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, possimus. Cumque ea nisi odit! Placeat, possimus omnis mollitia id quam modi aut impedit nulla repellendus facere consequuntur.</p>
+                </div>
+                <div class="row d-flex justify-content-around">
+                    <div class="p-5 rounded">
+                        <div class="text-center">1</div>
+                        <div class="text-center">98%</div>
+                    </div>
+                    <div class="p-5 rounded">
+                        <div class="text-center">2</div>
+                        <div class="text-center">95%</div>
+                    </div>
+                    <div class="p-5 rounded">
+                        <div class="text-center">3</div>
+                        <div class="text-center">99%</div>
+                    </div>
+                    <div class="p-5 rounded">
+                        <div class="text-center">4</div>
+                        <div class="text-center">98%</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="resume col-lg-5">Download resume</div>
+                    <span class="horizon col-lg-4"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--my skills end-->
+
+
+<!--services start-->
+<section class="m-5" style="background-color: #f9f3f5; margin: 5% 15% !important">
+    <div class="container">
+        <div class="row" style="justify-content: center;align-items: center;height: 130px;">
+            <div class="col-3 mt-3">
+                <h3>SERVICES</h3>
+                <p>Tell me what can i do?</p>
+            </div>
+            <div class="col-6 mt-2">
+                <form>
+                    <div class="card-body row no-gutters align-items-center">
+                        <div class="col">
+                            <input type="search" placeholder="Service Search" class="form-control form-control-borderless border-0"/>
+                        </div>
+                        <div class="col-auto">
+                            <button type="submit" class="btn bg-transparent">Hire Now >></button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+<!--services end-->
+
+
+<!--skills start-->
+<section class="m-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="text-center" id="main">
+                    <div class="d-inline-flex flex-column justify-content-center align-items-center" id="1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="70" fill="currentColor" class="bi bi-window" viewBox="0 0 16 16">
+                            <path d="M2.5 4a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm2-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm1 .5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1z"/>
+                            <path d="M2 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H2zm13 2v2H1V3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1zM2 14a1 1 0 0 1-1-1V6h14v7a1 1 0 0 1-1 1H2z"/>
+                        </svg>UI/UX design
+                    </div>
+                    <div class="d-inline-flex flex-column justify-content-center align-items-center" id="2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="70" fill="currentColor" class="bi bi-window" viewBox="0 0 16 16">
+                            <path d="M2.5 4a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm2-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm1 .5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1z"/>
+                            <path d="M2 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H2zm13 2v2H1V3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1zM2 14a1 1 0 0 1-1-1V6h14v7a1 1 0 0 1-1 1H2z"/>
+                        </svg>UI/UX design
+                    </div>
+                    <div class="d-inline-flex flex-column justify-content-center align-items-center" id="3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="70" fill="currentColor" class="bi bi-window" viewBox="0 0 16 16">
+                            <path d="M2.5 4a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm2-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm1 .5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1z"/>
+                            <path d="M2 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H2zm13 2v2H1V3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1zM2 14a1 1 0 0 1-1-1V6h14v7a1 1 0 0 1-1 1H2z"/>
+                        </svg>UI/UX design
+                    </div>
+                    <div class="d-inline-flex flex-column justify-content-center align-items-center" id="4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="70" fill="currentColor" class="bi bi-window" viewBox="0 0 16 16">
+                            <path d="M2.5 4a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm2-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm1 .5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1z"/>
+                            <path d="M2 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H2zm13 2v2H1V3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1zM2 14a1 1 0 0 1-1-1V6h14v7a1 1 0 0 1-1 1H2z"/>
+                        </svg>UI/UX design
+                    </div>
+                    <div class="d-inline-flex flex-column justify-content-center align-items-center" id="5">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="70" fill="currentColor" class="bi bi-window" viewBox="0 0 16 16">
+                            <path d="M2.5 4a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm2-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm1 .5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1z"/>
+                            <path d="M2 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H2zm13 2v2H1V3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1zM2 14a1 1 0 0 1-1-1V6h14v7a1 1 0 0 1-1 1H2z"/>
+                        </svg>UI/UX design
+                    </div>
+                    <div class="d-inline-flex flex-column justify-content-center align-items-center" id="6">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="70" fill="currentColor" class="bi bi-window" viewBox="0 0 16 16">
+                            <path d="M2.5 4a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm2-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm1 .5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1z"/>
+                            <path d="M2 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H2zm13 2v2H1V3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1zM2 14a1 1 0 0 1-1-1V6h14v7a1 1 0 0 1-1 1H2z"/>
+                        </svg>UI/UX design
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <img class="rounded-lg" src="thumbnail.png" width="100%" height="100%"/>
+            </div>
+        </div>
+    </div>
+</section>
+<!--skills end-->
+
+
+<!--happy client start-->
+<section class="m-5" style="background-color: #f9f3f5; margin: 5% 15% !important">
+    <div class="container">
+        <div class="row" style="justify-content: center;align-items: center;height: 130px;">
+            <div class="col-5 mt-3 text-center">
+                <h3>Happy Client</h3>
+                <p>Quality is remembered long after the price is forgotten</p>
+            </div>
+            <div class="col-6 mt-2 d-inline-flex flex-row justify-content-between align-items-center">
+                <div>
+                    <img src="airbnb-icon.png" height="80px" alt="" srcset="">
+                </div>
+                <div>
+                    <img src="samsung-icon.png" alt="" srcset="">
+                </div>
+                <div>
+                    <img src="amazon-icon.png" alt="" srcset="">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--happy client end-->
+
+
+<!--Blog news start-->
+<section class="m-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <img class="rounded-lg" src="thumbnail.png" width="100%" height="100%"/>
+            </div>
+            <div class="col-lg-6">
+                <div>
+                    <h2>Blog News</h2>
+                    <p>If your new brand has a message to communicate, then you need to determine when and how communication of that message starts.</p>
+                    <p>A great brand video starts with a great video script, whether you re making a commercial or explainer video. Voiceover, music, visuals—these devices enhance your story, but that story needs to be on paper first.</p>
+                </div>
+                <div class="row">
+                    <div class="resume col-lg-3 text-danger">Read More</div>
+                    <span style="background-color: #dc3545;" class="horizon col-lg-6"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Blog news end-->
+
+
+<!--social media start-->
+<section class="m-5" style="background-color: #f9f3f5; margin: 5% 15% !important">
+    <div class="container">
+        <div class="row" style="justify-content: center;align-items: center;">
+            <div class="col-3 mt-3 text-center">
+                <h3>Social Media</h3>
+                <p>Mauris aliquet egestas metus,id pellentesque mauris tincidunt</p>
+            </div>
+            <div class="col-6 mt-2 d-inline-flex">
+                <div>
+                    <img src="airbnb-icon.png" height="80px" alt="" srcset="">
+                </div>
+                <div>
+                    <img src="samsung-icon.png" alt="" srcset="">
+                </div>
+                <div>
+                    <img src="amazon-icon.png" alt="" srcset="">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--social media end-->
+
+
+<!--contact form start-->
+<section>
+    <div class="contact-us d-flex">
+        <div class="mail-phone">
+            <h2 class="text-justify ml-3 mt-4">Get in touch with us!</h2>
+            <p class="fw-200 text-justify mx-3 text-wrap">Whether you need product design or develop services let us help with your challenge.</p>
+            <img src="mail.png" class="mail-icon">
+        </div>
+        <div class="contact form-group border shadow-pop">
+            <h2 class="text-center mt-2">Contact form</h2>
+            <form>
+                <div class="form-inline ml-5">
+                    <input type="text" id="name" class="form-control mr-3" name="name" placeholder="Name">
+                    <input type="text" id="phone" class="form-control mr-5" name="phone" placeholder="Phone number">
+                </div>
+                <input type="email" id="mail" class="form-control my-3 ml-5 col-8" name="mail" placeholder="Email address">
+                <input type="text" id="subject" class="form-control mb-3 ml-5 col-5" name="subject" placeholder="Subject">
+                <textarea id="msg" class="form-control mb-3 ml-5 col-10" name="msg" rows="5" placeholder="Message"></textarea>
+                <input type="submit" id="submit" class="btn btn-primary ml-5 mb-3 col-3" name="submit" value="Submit">
+            </form>    
+        </div>
+    </div>
+</section>
+<!--contact form end-->
+<script src="main.js"></script>
+</body>
+</html>
