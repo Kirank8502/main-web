@@ -55,12 +55,12 @@ img .coder{
     max-height: 400px;
     max-width: 500px;
 }
-.sidebar{
+/* .sidebar{
     cursor: pointer;
     z-index: 999;
     right: 0;
     position: fixed;
-}
+} */
 .line1{
     margin-top: 10px;
     height: 1px;
